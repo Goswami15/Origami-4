@@ -1,0 +1,65 @@
+.grid img{
+    border: 2px solid black;
+    border-radius:50px;
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+.origami{
+    border-radius:20px;
+    background-color:white;
+    width:310px;
+    font-family:fantasy;
+    padding:30px;
+    margin:25px;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+    position: relative;
+}
+.menu a{
+    color:white;
+}
+body{
+    background-color:#008080;
+}
+.grid{
+display:flex;
+flex-wrap: wrap;
+}
+.bodyimg {
+    font-family: cursive;
+    text-align: center;
+}
+.bodyimg p{
+    color:white;
+    font-size: 35px;
+    position:absolute;
+    top:5%;
+    margin-left:460px;
+}
+.bodyimg h3{
+    position:absolute;
+    top:15%;
+    color:white;
+    margin-left:220px;
+}
+a:visited{
+    color:#ffffff;
+}
+a:hover{
+    color:red;
+}
+a:link{
+    color:blue;
+}
+.origami:hover{
+    transform:scale(1.2);
+}
